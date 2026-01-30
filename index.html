@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The MagiScript Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- TODO: (OPTIONAL) add loading of jquery -->
+    <script src="script.js" defer></script>
+</head>
+<body class="library">
+<h1>
+    Welcome to The MagiScript Library of Mexyll the Magnificent
+</h1>
+<div class="book-view-container">
+    <div id="book-view" class="hidden">
+        <button id="close-tome">Close Tome</button>
+        <div class="spell-page hidden" id="change-password-book">
+            <div class="page-left">
+                <img src="resources/spellPages/witchPassword.webp" alt="witch and padlock">
+            </div>
+
+            <form id="change-password-form">
+                <!-- TODO: add form for change password -->
+            </form>
+        </div>
+        <div class="spell-page hidden" id="change-name-book">
+            <div class="page-left">
+                <img src="resources/spellPages/renameWizard.webp" alt="wizard looking in mirror">
+            </div>
+
+            <div class="page-right">
+                This spell weaves the ancient magic of names and identity, allowing the caster to shed old titles and
+                embrace a new persona. The incantation should be spoken with a clear vision of the new name and its
+                attributes, marking a rebirth of self in the mystic realms.
+                You should henceforth be known as
+                <form id="rename-wizard-form">
+                    <!-- TODO: add form for changing name -->
+                     <label>Wizard Name</label>
+                     <input type="text" id = "Wizard-name">
+                </form>
+            </div>
+        </div>
+
+        <div class="spell-page hidden" id="summon-familiar-book">
+            <div class="page-left">
+                <img src="resources/spellPages/angryLlama.webp" alt="angry two headed llama breathing fire">
+            </div>
+
+            <div class="page-right">
+                <form id="summon-form">
+                    <!-- TODO: add form for summon familiar -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>Explore the magic within books...</p>
+<div class="books-container">
+    <div class="book" id="change-password-book-cover">
+        <h2>The Arcanum of Archmage Arlo the Apathetic</h2>
+        <img src="resources/books/arcanum.webp" alt="Cover of Arcanum of Archmage Arlo the Apathetic">
+    </div>
+    <div class="book" id="change-name-book-cover">
+        <h2>Professor Noodlewhisker the Unpronounceable's Nomen Novum</h2>
+        <img src="resources/books/nomenNovum.webp" alt="Cover of Professor Noodlewhisker the Unpronounceable's Nomen Novum">
+    </div>
+    <div class="book" id="summon-familiar-book-cover">
+        <h2>Mexyll the Magnificent’s
+            Mystical Manuscripts of Summon Familiar</h2>
+        <img src="resources/books/manuscript.webp" alt="Cover of Mystical Manuscripts of Summon Familiar">
+    </div>
+</div>
+</body>
+</html>
